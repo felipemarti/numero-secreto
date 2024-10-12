@@ -4,7 +4,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 exibirMensagemInicial();
-
+//teste
 function verificarChute() {
     let chute = document.querySelector('input').value;
     if (chute == numeroSecreto){
